@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icon.ico">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="temp styles.css" />
+  </head>
+  <body background="BACKGROUN.jpg" style="display: flex; flex-direction: column; min-height: 100vh;" >
+    <div class="container">
+      <h1 style="text-align: center; color: #4BC3C5; font-family: Arial, sans-serif; font-size: 3em;">
+        WeatherZen
+      </h1>
+      <form>
+        <input type="text" id="city-input" placeholder="Enter Your Desired City" class="input-wrapper" />
+        <input type="submit" value="Get Weather Update" class="btn" />
+      </form>
+      <div id="weather-data">
+        <div class="icon">
+          <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+        </div>
+        <div class="temperature"></div>
+        <div class="description"></div>
+        <div class="details">
+          <!-- <div>Feels like: 23°C</div>
+                <div>Humidity: 40%</div>
+                <div>Wind speed: 5 m/s</div> -->
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <a href="temp index.html" style="text-decoration: none;">
+        <button class="button" >
+          Toggle Temperature Scale
+        </button>
+      </a>
+    </div>
+</body>
+      </a>
+    </div>
+    <footer id="footer" style="margin-top: auto; width: 100%; text-align: center; font-size: 1.5em;">
+ 
+      <!-- Company Details 
+       1. Address
+      2. Contact Number
+      3. Enquiry Mail     DONE NOW WORKING WITH THE CSS PART
+      -->
+      <div class="Weather Details">
+          <div class="row">
+              <div id="col1">
+                  <span id="icon" class="fa fa-map-marker"></span>
+
+                  <span>
+                      Bahria University, H-11/3,
+                      <br />Islamabad
+                  </span>
+              </div>
+
+              <div id="col2">
+                  <span id="icon" class="fa fa-phone"></span>
+
+                  <span>
+                      Telephone: +92-33399588-36
+                  </span>
+              </div>
+
+              <div id="col3">
+                  <span id="icon" class="fa fa-envelope"></span>
+                  <pre>    For More Query Contact Us At  
+
+        Malikabdullahnasir5@gmail.com
+        zasif9204@gmail.com
+                  </pre>
+              </div>
+          </div>
+      </div>
+      <!-- Copyright Section -->
+      <div class="copyright">
+          <p>© All rights reserved | Bahria University.</p>
+      </div>
+  </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
